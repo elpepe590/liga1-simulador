@@ -1,0 +1,34 @@
+<div class="container">
+  <h1>Liga 1 Perú – Simulador Oficial</h1>
+
+  <div class="controls">
+    <select id="modoSelect">
+      <option value="apertura">Torneo Apertura</option>
+      <option value="clausura">Torneo Clausura</option>
+      <option value="acumulado">Acumulado</option>
+    </select>
+    <button onclick="resetTodo()">Reiniciar Todo</button>
+  </div>
+
+  <h2>Ingresar Resultados</h2>
+  <div id="partidos"></div>
+
+  <h2>Tabla de Posiciones</h2>
+  <table id="tabla">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Equipo</th>
+        <th>PJ</th>
+        <th>PG</th>
+        <th>PE</th>
+        <th>PP</th>
+        <th>GF</th>
+        <th>GC</th>
+        <th>DG</th>
+        <th>PTS</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>

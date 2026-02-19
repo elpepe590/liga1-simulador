@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #001f3f, #003366);
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button, select {
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+#partidos {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.partido {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 40px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  color: black;
+}
+
+th {
+  background: #0033a0;
+  color: white;
+  padding: 8px;
+}
+
+td {
+  padding: 6px;
+  text-align: center;
+}
+
+.libertadores { background: #cce5ff !important; }
+.sudamericana { background: #fff3cd !important; }
+.descenso { background: #f8d7da !important; }
+
